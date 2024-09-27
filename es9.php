@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        $colore = "red";
+        $colore = "rgb(" . rand(0,255) . "," . rand(0,255) . ",". rand(0,255) . ")";        
         $nome = "Dario Goccia";
         echo "<h1 style='color:$colore;'>$nome</h1>"
     ?>
